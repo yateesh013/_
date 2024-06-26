@@ -22,40 +22,47 @@ header{
     padding: 10px 10px;
     position: relative;
     text-align: center;
+    height: 250px;
 }
 
 .name{
-    position: absolute;
-    top: 40px;
-    left: 470px;
-    font-size: 32px;
+    position: relative;
+    top: 100px;
+    font-size: 30px;
+    text-align: center;
     
 }
 .name:hover{
 
     color: green;
-    transition: ease-in;
+    
+    transition: ease-in-out;
     font-size: xx-larger;
     
 }
+#role{
+    color: #ffff;
+    position: relative;
 
+    top: 100px;
+}
 .logo{
-    position: fixed;
-    left: 1100px;
+    position: relative;
+    left: 400px;
     height: 100px;
     width: 200px;
 }
 .image{
     height: 150px;
-    position: absolute;
-    left: 100px;
+    position: relative;
+    right: 400px;
 }
 
 nav ul {
     list-style: none;
-    padding: 50px;
+    padding: 20px;
     position: relative;
-    top: 40px;
+    bottom: 80px;
 
 }
 
@@ -92,7 +99,7 @@ h2 {
 }
 h2:hover{
     color: darkred;
-    transition: ease-in;
+    transition: ease-in-out;
     font-size: xx-large;
     
 }
